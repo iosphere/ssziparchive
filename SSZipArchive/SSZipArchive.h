@@ -40,7 +40,7 @@
 + (BOOL)createZipFileAtPath:(NSString *)path withContentsOfDirectory:(NSString *)directoryPath;
 + (BOOL)createZipFileAtPath:(NSString *)path withContentsOfDirectory:(NSString *)directoryPath keepParentDirectory:(BOOL)keepParentDirectory;
 
-- (id)initWithPath:(NSString *)path;
+- (instancetype)initWithPath:(NSString *)path;
 - (BOOL)open;
 - (BOOL)writeFile:(NSString *)path;
 - (BOOL)writeFileAtPath:(NSString *)path withFileName:(NSString *)fileName;

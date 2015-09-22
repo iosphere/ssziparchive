@@ -441,7 +441,7 @@
 }
 
 
-- (id)initWithPath:(NSString *)path
+- (instancetype)initWithPath:(NSString *)path
 {
 	if ((self = [super init])) {
 		_path = [path copy];
